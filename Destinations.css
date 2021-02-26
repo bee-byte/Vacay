@@ -196,11 +196,85 @@ section {
 #card-4 {
   background-color: #424242;
 }
+
+/* article write up */
+.destination-writeUp {
+  position: relative;
+  background: url("https://i.postimg.cc/TPQVWtyt/marguerite-3342019-1920.jpg");
+
+  height: 600px;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--overlay-color);
+}
+.destination-writeUp h2 {
+  font-size: 30px;
+  color: #fff;
+  height: 100%;
+
+  margin: auto;
+  max-width: 860px;
+  padding: 5rem 0;
+}
+.destination-writeUp p {
+  font-size: 45px;
+  font-family: dancing script;
+  color: var(--primary-color);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  max-width: 860px;
+  margin-top: 5rem;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--primary-color);
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  align-items: center;
+  margin: 0px 0px 0px 46%;
+}
+
+.btn:hover {
+  background: var(--secondary-color);
+}
+
+/* article text */
+
+.article-text {
+  text-align: center;
+}
+
+.article-text h3 {
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.article-text p {
+  font-family: dancing script;
+  font-size: 30px;
+  color: var(--primary-color);
+}
 /* article cards */
 
 .article-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  margin: 20px;
 }
 
 .profile-card {
@@ -215,15 +289,10 @@ section {
 .profile-card,
 .profile-card header,
 .profile-card header img,
-.profile-card .profile-bio,
-.profile-card .profile-social-links {
+.profile-card .profile-bio {
   overflow: hidden;
   position: relative;
   top: 0;
-  /* -webkit-transition: all 0.47s ease-out;
-  -moz-transition: all 0.47s ease-out;
-  -ms-transition: all 0.47s ease-out;
-  -o-transition: all 0.47s ease-out; */
   transition: all 0.47s ease-out;
   margin-bottom: 2rem;
 }
@@ -248,8 +317,6 @@ section {
   left: 0;
   right: 0;
   opacity: 0.57;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+13,000000+100&amp;0+13,0.7+100 */
-  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
   background: url(https://s32.postimg.org/vamjkty2d/batman.jpg);
   background: -moz-linear-gradient(
     top,

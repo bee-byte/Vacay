@@ -107,9 +107,9 @@ img {
 
 .section-b {
   position: relative;
-  background: url("https://i.postimg.cc/SKdL7Ycg/pexels-riccardo-bresciani-307008.jpg")
-    no-repeat bottom center/cover;
+  background: url("https://i.postimg.cc/SKdL7Ycg/pexels-riccardo-bresciani-307008.jpg");
   height: 600px;
+  background-repeat: no-repeat;
 }
 
 .section-b-inner {
