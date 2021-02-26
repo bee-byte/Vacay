@@ -3,7 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styling.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <img
+            class="logo-image"
+            src="https://i.postimg.cc/cH9GqRbK/Logo-Makr-9-T3l-Vq.png"
+            alt=""
+          />
+          <h1>Vacay</h1>
+        </div>
+
+        <ul class="nav">
+          <li><a href="./Index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="./Destinations.html">Destinations</a></li>
+          <li><a href="./Contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--End of Navbar-->
+
+    <div class="contact-container">
+      <div class="overlay">
+        <div><a href="./Index.html" class="btn-contact">Back to Home</a></div>
+        <div class="contact-heading">
+          <h1>Contact Us</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="contact-form">
+          <div class="input-class">
+            <input type="text" class="input" placeholder="Your Name" required />
+            <input
+              type="email"
+              class="input"
+              placeholder="Your E-mail"
+              required
+            />
+            <input type="tel" class="input" placeholder="Phone" required />
+            <input type="text" class="input" placeholder="Subject" />
+          </div>
+          <div class="msg">
+            <textarea placeholder="Message" cols="30" rows="10"></textarea>
+            <button class="btn" type="submit">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of Contact form-->
+  </body>
 </html>
